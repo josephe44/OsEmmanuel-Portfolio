@@ -1,0 +1,70 @@
+h1 {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 48px;
+}
+p {
+  margin-bottom: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+ }
+nav {
+  text-align: center;
+}
+.blogPost {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 10px;
+  margin: 30px;
+}
+.left-side {
+  margin: 10px;
+  padding: 30px;
+  border: 1px solid #333;
+}
+#post {
+  color: #333;
+}
+.post-one h3 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.post-one p {
+  margin-bottom: 30px;
+}
+.post-one a {
+  color: #00f;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.post-two,
+.post-three,
+.post-four {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+}
+.post-two img,
+.post-three img,
+.post-four img {
+  width: 150px;
+  height: 100px;
+}
+.post-two a,
+.post-three a,
+.post-four a {
+  color: #00f;
+  text-decoration: none;
+  padding: 7px 5px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}

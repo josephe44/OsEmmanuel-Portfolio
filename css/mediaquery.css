@@ -1,0 +1,46 @@
+@media (max-width: 1024px) {
+  .container {
+   max-width: 95%;
+   margin: 5px 10px;
+  }
+  h1 {
+   font-size: 24px;
+  }
+  .blogPost,
+  .post-two,
+  .post-three,
+  .post-four {
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   gap: 5px;
+  }
+  .post-two p,
+  .post-three p,
+  .post-four p {
+   margin-bottom: 15px;
+  }
+  .blogPost {
+   margin: 0px;
+  }
+  .left-side {
+   margin: 10px;
+  }
+  .blog-post-1 p,
+  .blog-post-1 blockquote {
+   text-align: justify;
+   margin: 0 20px;
+  }
+  p {
+   text-align: justify;
+  }
+  .author img,
+  .author h3,
+  .author p,
+  .socail-handle a {
+   margin: 0 20px;
+  }
+  footer p {
+   text-align: center;
+  }
+}
+ 
